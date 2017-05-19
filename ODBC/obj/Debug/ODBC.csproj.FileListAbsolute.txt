@@ -1,0 +1,10 @@
+c:\users\jorge.miranda\documents\visual studio 2015\Projects\ODBC\ODBC\bin\Debug\ODBC.exe.config
+c:\users\jorge.miranda\documents\visual studio 2015\Projects\ODBC\ODBC\obj\Debug\ODBC.csprojResolveAssemblyReference.cache
+c:\users\jorge.miranda\documents\visual studio 2015\Projects\ODBC\ODBC\bin\Debug\ODBC.exe
+c:\users\jorge.miranda\documents\visual studio 2015\Projects\ODBC\ODBC\bin\Debug\ODBC.pdb
+c:\users\jorge.miranda\documents\visual studio 2015\Projects\ODBC\ODBC\obj\Debug\ODBC.exe
+c:\users\jorge.miranda\documents\visual studio 2015\Projects\ODBC\ODBC\obj\Debug\ODBC.pdb
+C:\Users\jorge.miranda\Documents\Visual Studio 2015\Projects\ODBC\ODBC\bin\Debug\Npgsql.dll
+C:\Users\jorge.miranda\Documents\Visual Studio 2015\Projects\ODBC\ODBC\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jorge.miranda\Documents\Visual Studio 2015\Projects\ODBC\ODBC\bin\Debug\Npgsql.xml
+C:\Users\jorge.miranda\Documents\Visual Studio 2015\Projects\ODBC\ODBC\bin\Debug\System.Threading.Tasks.Extensions.xml

@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>ODBC.Listar</StartupObject>
+    <StartupObject>ODBC.Delete</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Npgsql, Version=3.2.2.0, Culture=neutral, PublicKeyToken=5d8b90d52f46fda7, processorArchitecture=MSIL">
@@ -54,6 +54,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConnectionFactory.cs" />
+    <Compile Include="Delete.cs" />
+    <Compile Include="Editar.cs" />
     <Compile Include="Listar.cs" />
     <Compile Include="InsereEditora.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

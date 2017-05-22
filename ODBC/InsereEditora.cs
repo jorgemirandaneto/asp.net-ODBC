@@ -14,7 +14,7 @@ namespace ODBC
         {
             string stringDeConexao = @"Server=127.0.0.1;Port=5432;User Id=postgres;Password=1q2w3e4r;Database=teste;";
 
-            
+
             Console.WriteLine("Digite seu nome");
             string nome = Console.ReadLine();
 
@@ -23,13 +23,13 @@ namespace ODBC
 
             NpgsqlConnection conexao = new NpgsqlConnection(stringDeConexao);
 
-            string textoInsereEditora = @"insert into editora (nome, email) values ('?','?')";
+            string textoInsereEditora = @"insert into editora (nome, email) values (:nome,:nome)";
 
             NpgsqlCommand comando = new NpgsqlCommand(textoInsereEditora, conexao);
 
-            comando.Parameters.AddWithValue(@"nome", nome);
+            comando.Parameters.Add(new NpgsqlParameter(@"nome" ,nome));
 
-            comando.Parameters.AddWithValue(@"email", email);
+            comando.Parameters.Add(new NpgsqlParameter("@email",email));
 
             conexao.Open();
 

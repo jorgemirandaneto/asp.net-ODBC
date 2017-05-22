@@ -11,11 +11,8 @@ namespace ODBC
     {
         static void Main(string[] args)
         {
-            string stringDeConexao = @"Server=127.0.0.1;Port=5432;User Id=postgres;Password=1q2w3e4r;Database=teste;";
 
-            NpgsqlConnection conexao = new NpgsqlConnection(stringDeConexao);
-
-
+            NpgsqlConnection conexao = ConnectionFactory.CreateConnection();
 
             string listar = @"select * from editora";
 
@@ -30,7 +27,7 @@ namespace ODBC
                 string nome = resultado["nome"] as string;
                 string email = resultado["email"] as string;
 
-                Console.WriteLine("Nome: " + nome + "   Email: " + email +"\n");
+                Console.WriteLine("Nome: " + nome + "\n" +   "Email: " + email +"\n");
             }
         }
     }
